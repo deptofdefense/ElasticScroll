@@ -9,5 +9,8 @@ setup(
     author_email='isears@friends.dds.mil',
     license='MIT',
     packages=['elasticscroll'],
-    zip_safe=False
+    zip_safe=False,
+    install_requires=[
+        'elasticsearch'
+    ]
 )
