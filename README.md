@@ -10,6 +10,14 @@ cd elasticscroll
 pip3 install .
 ```
 
+## Upgrade
+
+```bash
+cd elasticscroll
+git pull origin master
+pip3 install --upgrade .
+```
+
 ## Usage
 
 ```python
